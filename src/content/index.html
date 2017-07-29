@@ -1,0 +1,47 @@
+---
+title: Nathan Hass Design
+---
+{% extends "layouts/base.twig" %}
+
+{% block content %}
+  {% for data in data.index %}
+    <section class="hp__topper">
+      <div class="hp__width">
+        <div class="hp__topper__hgroup">
+          <h1 class="hp__topper__h">Hi! I’m Nathan Hass</h1>
+          <p class="hp__topper__desc">I’m a Boston based designer, art director, and front-end developer. I am currently an associate creative director at <a href="https://www.upstatement.com/" target="_blank">Upstatement</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hp__projects">
+      <div class="hp__width">
+        <h2 class="hp__projects__h">A few sites I’ve worked on</h2>
+        <ul class="hp__projects__list">
+          {% for project in data.projects %}
+            <li class="hp__project">
+              <a class="hp__project__link" href="{{project.link}}" target="_blank">
+                <h3 class="hp__project__h">{{project.title}}{{project.company == 'Upstatement' ? '*' : ''}}</h3>
+                <p class="hp__project__desc">{{project.info}}</p>
+              </a>
+            </li>
+          {% endfor %}
+
+        </ul>
+        <p class="hp__project_footnote">*Made at <a href="https://www.upstatement.com/" target="_blank">Upstatement</a></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="hp__width">
+        <ul class="footer__links">
+          {% for item in data.footerLinks %}
+            <li class="footer__link"><a href="{{item.link}}" target="_blank">{{item.text}}</a></li>
+          {% endfor %}
+        </ul>
+        <p class="footer__copyright">© 2017 Nathan Hass </p>
+      </div>
+    </footer>
+
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,91 @@
+[
+  {
+    "projects": [
+      {
+        "title": "MIT Technology Review",
+        "info": "Dream client 😍 😍",
+        "company": "Upstatement",
+        "link": "https://www.upstatement.com/work/technology-review/"
+      },
+      {
+        "title": "ESPN’s The Undefeated",
+        "info": "Proud to be a part of this one",
+        "company": "Upstatement",
+        "link": "https://theundefeated.com/"
+      },
+      {
+        "title": "Northeastern News",
+        "info": "A big look for a small team",
+        "company": "Upstatement",
+        "link": "https://www.upstatement.com/work/northeastern-news/"
+      },
+      {
+        "title": "Upstatement.com",
+        "info": "Not the whole thing, but a few key pages",
+        "company": "Upstatement",
+        "link": "https://www.upstatement.com/"
+      },
+      {
+        "title": "Random House  Children’s Books",
+        "info": "Lot’s of little details and 3d books",
+        "company": "Upstatement",
+        "link": "http://rhcbooks.com/"
+      },
+      {
+        "title": "Clover Food Labs site & order app",
+        "info": "Egg + Eggplant sammy… 💯",
+        "company": "Highland & Heather",
+        "link": "https://www.cloverfoodlab.com/"
+      },
+      {
+        "title": "Sincere Metal Works",
+        "info": "This dude does some amazing work",
+        "company": "Highland & Heather",
+        "link": "https://www.sinceremetalworks.com/"
+      },
+      {
+        "title": "Esri Careers",
+        "info": "A bit dated, but still fun",
+        "company": "Upstatement",
+        "link": "http://www.esri.com/careers/main"
+      },
+      {
+        "title": "Random House Books",
+        "info": "An oldie but a goodie",
+        "company": "Upstatement",
+        "link": "http://www.randomhousebooks.com/"
+      },
+      {
+        "title": "Be Brave Podcast",
+        "info": "Just a few friends talking about music",
+        "company": "Highland & Heather",
+        "link": "#"
+      },
+      {
+        "title": "Boston.com",
+        "info": "Strong start, sad end. Learned a whole lot in the process.",
+        "company": "Upstatement",
+        "link": "https://www.upstatement.com/work/boston-dot-com/"
+      }
+    ],
+
+    "footerLinks": [
+      {
+        "text": "Email",
+        "link": "mailto:nathanhass@gmail.com"
+      },
+      {
+        "text": "Instagram",
+        "link": "mailto:nathanhass@gmail.com"
+      },
+      {
+        "text": "Twitter",
+        "link": "mailto:nathanhass@gmail.com"
+      },
+      {
+        "text": "Codepen",
+        "link": "mailto:nathanhass@gmail.com"
+      }
+    ]
+  }
+]

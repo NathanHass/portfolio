@@ -1,0 +1,226 @@
+// colors
+// -------
+
+// Gray
+$c-gray-0:               #000000;
+$c-gray-1:               #111111;
+$c-gray-2:               #222222;
+$c-gray-3:               #333333;
+$c-gray-4:               #444444;
+$c-gray-5:               #555555;
+$c-gray-6:               #666666;
+$c-gray-7:               #777777;
+$c-gray-8:               #888888;
+$c-gray-9:               #979797;
+$c-gray-a:               #aaaaaa;
+$c-gray-b:               #bbbbbb;
+$c-gray-c:               #cccccc;
+$c-gray-d:               #dddddd;
+$c-gray-e:               #eeeeee;
+$c-gray-f0:              #f0f0f0;
+$c-gray-f5:              #f5f5f5;
+$c-gray-f7:              #f7f7f7;
+$c-gray-f9:              #f9f9f9;
+$c-gray-f:               #ffffff;
+$c-black:                #000000;
+$c-white:                $c-gray-f;
+
+// RAINBOWS
+$c-red:                  #dd2f23;
+// $c-orange:               #ff6d5d;
+$c-orange:               #ff4530;
+$c-maroon:               #6F0E12;
+$c-green:                #94afa1;
+$c-green--dark:          #7D9488;
+$c-clay:                 #928A76;
+$c-tan:                  #f7f5ed;
+$c-tan--dark:            #EDEAE2;
+$c-brass:                #463d26;
+$c-img-bg:               #2f2e2c;
+
+$tan-split:              linear-gradient(90deg, $c-tan 50%, $c-tan--dark 50%);
+
+// Applications
+$c-base:                 $c-black;
+$c-text:                 $c-base;
+$c-base-tint-5:          rgba( $c-base, 0.05 );
+$c-base-tint-10:         rgba( $c-base, 0.1 );
+$c-wrapper-bg:           $c-tan;
+$c-gallery-bg:           $c-base-tint-5;
+$c-footer-bg:            $c-base;
+$c-inverted:             $c-wrapper-bg;
+$c-inverted-tint-10:     rgba( $c-inverted, 0.1 );
+$c-link:                 $c-base;
+$c-link-active:          $c-link;
+$c-link-hover:           $c-link;
+$c-border:               $c-base;
+$c-heading:              inherit;
+$c-heading-small:        inherit;
+$c-code:                 $c-base;
+$c-code-bg:              rgba( $c-base, 0.05 );
+$c-table-border:         $c-border;
+$c-table-head:           #fff;
+$c-table-head-bg:        $c-base;
+$c-table-caption:        #999;
+$c-table-th-border:      $c-border;
+$c-table-td-border:      $c-border;
+$c-table-stripes:        rgba( $c-base, 0.05 );
+$c-input-focusBorder:    $c-border;
+$c-button-bg:            transparent;
+$c-button-text:          $c-base;
+$c-button-primary-bg:    $c-base;
+$c-button-primary-text:  $c-white;
+$c-placeholder-text:     rgba( $c-base, 0.4 );
+$c-highlight-tag:        rgba( $c-base, 0.1 );
+$c-footer-arrow:         darken( $c-base, 15% );
+$c-feed-border:          mix($c-base, $c-inverted, 20%);
+
+
+// Typography & Vertical Whitespace
+// -------
+
+// Font Size
+$font-size-base:             18px;
+$font-size-micro:            12px;
+$font-size-h6:               14px;
+$font-size-h5:               16px;
+$font-size-h4:               18px;
+$font-size-h3:               24px;
+$font-size-h2:               30px;
+$font-size-h1:               36px;
+$font-size-jumbo:            48px;
+
+// applications
+$font-size-table-caption:    $font-size-h6;
+$font-size-form:             $font-size-h5;
+$font-size-legend:           $font-size-h3;
+$font-size-button:           $font-size-h6;
+
+// Line Height
+$line-height-base:           1.55;
+$line-height-micro:          1.3;
+$line-height-h6:             $line-height-base;
+$line-height-h5:             $line-height-base;
+$line-height-h4:             1.3;
+$line-height-h3:             1.3;
+$line-height-h2:             1.15;
+$line-height-h1:             1.15;
+$line-height-jumbo:          1.1;
+
+// Margin & Padding
+$font-margin-base:           0 0 25px 0;
+$font-margin-h6:             $font-margin-base;
+$font-margin-h5:             $font-margin-base;
+$font-margin-h4:             $font-margin-base;
+$font-margin-h3:             $font-margin-base;
+$font-margin-h2:             $font-margin-base;
+$font-margin-h1:             0 0 27px 0;
+// applications
+$font-margin-blockquote:     1em 40px;
+$font-margin-hgroup:         $font-margin-base;
+$font-margin-list:           $font-margin-base;
+$font-padding-list:          0 0 0 40px;
+$font-margin-dd:             0 0 0 40px;
+$font-padding-code:          .3em .3em .1em;
+$font-margin-code:           30px 0;
+
+
+// Font Family
+$font-family-sans-extended:   'sackers', sans-serif;
+$font-family-sans:            'Karla', sans-serif;
+$font-family-sans-condensed:  'trade-gothic', sans-serif;
+$font-family-serif:           'georgia', serif;
+$font-family-monospace:       monospace;
+// shorthand
+$sans:                        $font-family-sans;
+$extended:                    $font-family-sans-extended;
+$condensed:                   $font-family-sans-condensed;
+$serif:                       $font-family-serif;
+$mono:                        $font-family-monospace;
+// applications
+$font-family-base:           $sans;
+$font-family-heading:        $sans;
+
+
+// Font Weights
+$font-weight--light:         300;
+$font-weight--reg:           400;
+$font-weight--bold:          700;
+$font-weight--black:         900;
+
+// Tables
+// -------
+
+$table-border:               1px solid $c-table-border;
+$table-margin:               35px 0;
+$table-padding:              0.5em 1em;
+$table-caption-padding:      0 0 10px;
+
+// Forms
+// -------
+
+$form-margin:                0;
+$form-legend-border:         1px solid #e5e5e5;
+$form-legend-borderWidth:    0 0 1px 0;
+$form-legend-margin:         0 0 20px;
+$form-legend-padding:        0 0 4px;
+$form-fieldset-border:       0;
+$form-fieldset-margin:       30px 0;
+$form-fieldset-padding:      0;
+$form-label-margin:          0.5em 0 0.2em;
+$form-row-margin:            0 0 10px;
+$form-input-margin:          0.25em 0;
+$form-input-padding:         0.5em 0.6em;
+$form-input-border:          1px solid #ccc;
+$form-input-shadow:          inset 0 1px 3px #eee;
+$form-input-borderRadius:    0;
+$form-input-focusShadow:     0 0 4px 0 rgba(18 ,159 ,234 ,0.2);
+
+// Layout
+// -------
+
+$width-desktop:              980px;
+$width-content:              720px;
+
+// Margins
+
+$spacing-xs:                 10px;
+$spacing-sm:                 15px;
+$spacing-md:                 20px;
+$spacing-lg:                 30px;
+$spacing-xl:                 60px;
+$spacing-xxl:                90px;
+$margin-row:                 -$spacing-lg;
+
+
+// Breakpoints
+// -------
+
+
+// Generic
+$bp--mobile:                  300px;
+$bp--phablet:                 450px;
+$bp--tablet:                  600px;
+$bp--tablet-xl:               770px;
+$bp--desktop:                 1070px;
+$bp--desktop-xl:              1350px;
+$bp--desktop-xxl:             1500px;
+
+// Applications
+$bp--topics-col:              950px;
+
+
+// Timing
+// -------
+$timing:                     cubic-bezier(0.645,0.045,0.355,1);
+$timing-butter:              cubic-bezier(0.215, 0.61, 0.355, 1);
+$timing-simmer:               cubic-bezier(0.42,0,.58,1);
+$timing-simmerOut:            cubic-bezier(0,0,.58,1);
+
+
+// Others
+// -------
+
+$site-max-width:            1140px;
+$transition:                all .2s $timing;
+$border-gray:               1px solid rgba(0, 0, 0, 0.2);

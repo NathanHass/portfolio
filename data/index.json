@@ -1,0 +1,79 @@
+[
+  {
+    "projects": [
+      {
+        "title": "MIT Technology Review",
+        "info": "Dream client 😍 😍",
+        "company": "Upstatement",
+        "link": "https://www.upstatement.com/work/technology-review/"
+      },
+      {
+        "title": "ESPN’s The Undefeated",
+        "info": "Proud to be a part of this one",
+        "company": "Upstatement",
+        "link": "https://theundefeated.com/"
+      },
+      {
+        "title": "Northeastern News",
+        "info": "A big look for a small team",
+        "company": "Upstatement",
+        "link": "https://www.upstatement.com/work/northeastern-news/"
+      },
+      {
+        "title": "Random House Children’s Books",
+        "info": "3d books and a bunch little details 📖",
+        "company": "Upstatement",
+        "link": "http://rhcbooks.com/"
+      },
+      {
+        "title": "Clover Food Labs website & order ahead app",
+        "info": "Egg + eggplant sammy… 💯",
+        "company": "Highland & Heather",
+        "link": "https://www.cloverfoodlab.com/"
+      },
+      {
+        "title": "Sincere Metal Works",
+        "info": "This dude does some amazing work",
+        "company": "Highland & Heather",
+        "link": "https://www.sinceremetalworks.com/"
+      },
+      {
+        "title": "Esri Careers",
+        "info": "A bit dated, but still fun",
+        "company": "Upstatement",
+        "link": "http://www.esri.com/careers/main"
+      },
+      {
+        "title": "Random House Books",
+        "info": "An oldie but a goodie 📚",
+        "company": "Upstatement",
+        "link": "http://www.randomhousebooks.com/"
+      },
+      {
+        "title": "Boston.com",
+        "info": "Strong start, sad end. Learned a whole lot in the process.",
+        "company": "Upstatement",
+        "link": "https://www.upstatement.com/work/boston-dot-com/"
+      }
+    ],
+
+    "footerLinks": [
+      {
+        "text": "Email",
+        "link": "mailto:nathanhass@gmail.com"
+      },
+      {
+        "text": "Instagram",
+        "link": "instagram.com/nathanhass"
+      },
+      {
+        "text": "Twitter",
+        "link": "https://twitter.com/natronic"
+      },
+      {
+        "text": "Codepen",
+        "link": "https://codepen.io/nathanhass/"
+      }
+    ]
+  }
+]

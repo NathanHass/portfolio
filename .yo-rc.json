@@ -1,0 +1,19 @@
+{
+  "generator-puppy": {
+    "projectName": "Nathan Hass Design",
+    "projectDesc": "Nathan Hass is a Boston based designer, art director, and front-end developer. He currently works  at Upstatement as senior designer.",
+    "features": [
+      "includeUpbase",
+      "includeJQuery",
+      "includeModernizr",
+      "useESNext"
+    ],
+    "includeAuth": false,
+    "includeIndex": false,
+    "includeSampleData": false,
+    "includeFactories": false,
+    "useESNext": true,
+    "runDate": "2017-06-15T01:57:33.492Z",
+    "runVersion": "0.5.0"
+  }
+}
